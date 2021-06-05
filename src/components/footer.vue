@@ -55,7 +55,12 @@
         </div>
     </div>
 </template>
-
+<script>
+export default {
+  name: 'Footer',
+ 
+}
+</script>
 <style scoped="scoped">
     @import "./style/footer.css";
     
