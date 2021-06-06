@@ -6,6 +6,7 @@
                     <i class='fas fa-phone-alt'></i>
                     <h4>
                         Call</h4>
+                        
                 </div>
                 <p>
                     <a href="https://wa.me/+6281xxxxxxxx" class="footer-text">081xxxxxxxx</a>
