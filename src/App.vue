@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+      <router-view/>
+NPM
     <Footer />
   </div>
 </template>
