@@ -6,7 +6,6 @@
                     <i class='fas fa-phone-alt'></i>
                     <h4>
                         Call</h4>
-                        
                 </div>
                 <p>
                     <a href="https://wa.me/+6281xxxxxxxx" class="footer-text">081xxxxxxxx</a>
@@ -56,13 +55,8 @@
         </div>
     </div>
 </template>
-<script>
-export default {
-  name: 'Footer',
- 
-}
-</script>
+
 <style scoped="scoped">
-    @import "./style/footer.css";
+     @import "../assets/style/footer.css";
     
 </style>
