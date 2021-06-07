@@ -20,7 +20,7 @@
                 </div>
                 <p>
                     <a href="https://g.page/cuci-dan-servis-sofa?share" class="footer-text">
-Griya bandung asri 2 blok F 2 no 6, Cipagalo, Kec. Bojongsoang, Bandung, Jawa Barat
+Griya bandung asri 2 blok F 2 no 6, Cipagalo, Kec. Bojongsoang
 
                         <br/>Bandung</a>
                 </p>

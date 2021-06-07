@@ -1,17 +1,20 @@
 <template>
   <div id="app">
+  <Header/>
       <router-view/>
 NPM
     <Footer />
   </div>
 </template>
 <script>
+
 import Footer from "./components/Footer.vue"
+import Header from "./components/Header.vue"
 
 export default {
   name: "App",
   components: {
-    Footer,
+    Header, Footer,
   },
 };
 </script>
