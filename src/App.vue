@@ -2,7 +2,7 @@
   <div id="app">
   <Header/>
       <router-view/>
-NPM
+<Home />
     <Footer />
   </div>
 </template>
@@ -10,11 +10,12 @@ NPM
 
 import Footer from "./components/Footer.vue"
 import Header from "./components/Header.vue"
+import Home from "./pages/Home.vue"
 
 export default {
   name: "App",
   components: {
-    Header, Footer,
+    Header, Footer,Home
   },
 };
 </script>

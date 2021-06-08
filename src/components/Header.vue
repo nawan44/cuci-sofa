@@ -1,6 +1,5 @@
 <template>
      <div class="header">
-        <Navmenu/>
         <div>
             <div>
                 <img src="../assets/logo/logo.png" class="logo-header"></div>
