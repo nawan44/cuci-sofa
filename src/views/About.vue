@@ -13,3 +13,7 @@
  @import '../assets/style/about.css';
 </style>
 <script>
+export default {
+  name: "About",
+ 
+};
