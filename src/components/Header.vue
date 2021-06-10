@@ -1,5 +1,7 @@
 <template>
      <div class="header">
+             <Navmenu/>
+
         <div>
             <div>
                 <img src="../assets/logo/logo.png" class="logo-header"></div>
@@ -26,3 +28,10 @@
 <style scoped="scoped">
      @import '../assets/style/header.css';
 </style>
+    <script>
+        import Navmenu from './Navmenu.vue'
+
+        export default {name: 'Header', components: {
+                Navmenu
+            }}
+    </script>
