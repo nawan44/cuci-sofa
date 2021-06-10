@@ -1,6 +1,6 @@
 <template>
     <div class="nav-vue">
-         <b-navbar toggleable="lg" type="dark" >
+         <b-navbar toggleable="lg" type="dark" variant="dark">
         <img src="../assets/logo/logo-nav.png" class="logo-navbar">
 
 
