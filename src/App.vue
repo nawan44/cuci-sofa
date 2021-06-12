@@ -1,16 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <div id="app">
+    <Header />
+    <!--
+      <router-view/>
+           -->
+    <Home />
+    <AppFooter />
+  </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from "./components/Header";
 
+import Home from "./pages/Home";
+import AppFooter from "./components/Footer";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    Header,
+    Home, AppFooter
   }
-}
+};
 </script>
 
 <style>
@@ -20,6 +29,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+* {
+  padding: 0;
+  margin: 0;
 }
 </style>

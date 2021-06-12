@@ -1,0 +1,26 @@
+/* .Nav{
+position: fixed;
+} */
+.nav-title {
+  font-weight: 300;
+  font-size: 18px;
+  margin: 0 20px 10px 30px;
+  color: black;
+}
+
+.nav-vue {
+  margin: 0 0 50px 0;
+}
+.logo-navbar {
+  width: 150px;
+  padding-left: 10px;
+}
+
+@media (max-width: 300px) {
+  .nav-vue {
+    margin: 0 0 20px 0;
+  }
+  .logo-navbar {
+    width: 100px;
+  }
+}

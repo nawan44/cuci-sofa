@@ -1,5 +1,6 @@
 <template>
     <div class="app-footer">
+    
         <div class="address-detail">
             <div class="contact-details">
                 <div class="title-contact">
@@ -8,7 +9,7 @@
                         Call</h4>
                 </div>
                 <p>
-                    <a href="https://wa.me/+6281xxxxxxxx" class="footer-text">081xxxxxxxx</a>
+                    <a href="https://wa.me/+62813xxx21336453" class="footer-text">0813xxx</a>
                 </p>
             </div>
             <div class="contact-details">
@@ -18,8 +19,10 @@
                         Visit</h4>
                 </div>
                 <p>
-                    <a href="https://goo.gl/maps/GpjMTqSTKenzxpkw8" class="footer-text">Jl. KH AHmad Junaedi 2 No 15
-                        <br/>Bekasi</a>
+                    <a href="https://g.page/cuci-dan-servis-sofa?share" class="footer-text">
+Griya bandung asri 2 blok F 2 no 6, Cipagalo, Kec. Bojongsoang
+
+                        <br/>Bandung</a>
                 </p>
             </div>
             <div class="contact-details">
@@ -38,8 +41,7 @@
             <div class="social-medsos-center">
                 <div class="container-medsos">
                     <a href="https://facebook.com">
-                        <i class='fab fa-facebook-square font-icon'></i>
-                    </a>
+<i class="fa fa-facebook-square" style="font-size:24px"></i>                    </a>
                     <a href="https://instagram.com">
                         <i class='fab fa-instagram font-icon' ></i>
                     </a>
@@ -55,8 +57,16 @@
         </div>
     </div>
 </template>
+<script>
+export default {
+  name: "AppFooter",
+  components: {
+    
+  }
+};
+</script>
 
 <style scoped="scoped">
-    @import "./style/footer.css";
+     @import "../assets/style/footer.css";
     
 </style>
