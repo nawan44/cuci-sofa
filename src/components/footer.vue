@@ -57,6 +57,14 @@ Griya bandung asri 2 blok F 2 no 6, Cipagalo, Kec. Bojongsoang
         </div>
     </div>
 </template>
+<script>
+export default {
+  name: "AppFooter",
+  components: {
+    
+  }
+};
+</script>
 
 <style scoped="scoped">
      @import "../assets/style/footer.css";

@@ -5,20 +5,19 @@
       <router-view/>
            -->
     <Home />
-    <Footer />
+    <AppFooter />
   </div>
 </template>
 <script>
-import Footer from "./components/Footer.vue";
-import Header from "./components/Header.vue";
-import Home from "./pages/Home.vue";
+import Header from "./components/Header";
 
+import Home from "./pages/Home";
+import AppFooter from "./components/Footer";
 export default {
   name: "App",
   components: {
     Header,
-    Footer,
-    Home
+    Home, AppFooter
   }
 };
 </script>
