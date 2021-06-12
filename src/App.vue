@@ -1,25 +1,25 @@
 <template>
   <div id="app">
-  <Header/>
-      <!--
+    <Header />
+    <!--
       <router-view/>
            -->
-
-<Home />
+    <Home />
     <Footer />
   </div>
 </template>
 <script>
-
-import Footer from "./components/Footer.vue"
-import Header from "./components/Header.vue"
-import Home from "./pages/Home.vue"
+import Footer from "./components/Footer.vue";
+import Header from "./components/Header.vue";
+import Home from "./pages/Home.vue";
 
 export default {
   name: "App",
   components: {
-    Header, Footer,Home
-  },
+    Header,
+    Footer,
+    Home
+  }
 };
 </script>
 
@@ -31,7 +31,7 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-*{
+* {
   padding: 0;
   margin: 0;
 }
