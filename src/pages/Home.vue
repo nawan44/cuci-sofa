@@ -2,7 +2,7 @@
   <div>
     <About />
     <Services />
-    <Portofolio/>
+    <Portofolio />
   </div>
 </template>
 <script>
