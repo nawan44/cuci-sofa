@@ -131,29 +131,47 @@
     </div>
 </template>
 <style lang="scss" scoped="scoped">
+
     @import '../assets/style/swiper.css';
+    .swiper {
+        width: 100%;
+        height: 1000px;
+        color: #ffffff;
+    }
+    .swip-con {
+        width: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        // background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
 </style>
 <script>
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-
-  // Import Swiper Vue.js components
-  import { Swiper, SwiperSlide } from 'swiper/vue';
-
-  // Import Swiper styles
-  import 'swiper/swiper.scss';
-  import 'swiper/components/navigation/navigation.scss';
-  import 'swiper/components/pagination/pagination.scss';
-  import 'swiper/components/scrollbar/scrollbar.scss';
-
-  // install Swiper modules
-  SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
-
+    import {Swiper, SwiperSlide} from 'vue-awesome-swiper'
+    //   import 'swiper/css/swiper.css'
     export default {
         name: 'SwiperPorto',
         components: {
             Swiper,
             SwiperSlide
-        },
+        },  directives: {
+    swiper: directive
+  },
         data() {
             return {
                 swiperOption: {
