@@ -30,6 +30,7 @@
 </template>
 <style scoped>
 @import "../assets/style/service.css";
+ @import '../assets/style/app.css';
 
 
 </style>

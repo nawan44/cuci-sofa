@@ -10,7 +10,7 @@
     </div>
 </template>
 <style scoped="scoped">
-    /* @import '../assets/style/App.css'; */
+    @import '../assets/style/App.css';
     @import '../assets/style/portofolio.css';
 </style>
 

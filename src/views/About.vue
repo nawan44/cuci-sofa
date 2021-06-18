@@ -11,6 +11,7 @@
 
 <style>     
  @import '../assets/style/about.css';
+ @import '../assets/style/app.css';
 </style>
 <script>
 export default {
