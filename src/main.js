@@ -6,12 +6,12 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 // Import Bootstrap an BootstrapVue CSS files (order is important)
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-import VueAwesomeSwiper from "vue-awesome-swiper";
+
 // import 'swiper/css/swiper.css'
 
 // import "swiper/swiper-bundle.css";
 
-Vue.use(VueAwesomeSwiper /* { default options with global component } */);
+// Vue.use(VueAwesomeSwiper /* { default options with global component } */);
 
 // Make BootstrapVue available throughout your project
 Vue.use(BootstrapVue)

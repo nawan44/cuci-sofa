@@ -13,6 +13,7 @@ import Header from "./components/Header";
 
 import Home from "./pages/Home";
 import AppFooter from "./components/Footer";
+
 export default {
   name: "App",
   components: {
