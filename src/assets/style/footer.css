@@ -152,6 +152,9 @@
   }
   
   @media only screen and (max-width: 768px) {
+    .app-footer {
+      height: 380px;
+    }
     .title-contact h4 {
       text-align: center;
       margin: 0 auto;
