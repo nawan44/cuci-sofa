@@ -1,19 +1,26 @@
 /* .Nav{
 position: fixed;
 } */
-.nav-title {
-  font-weight: 300;
-  font-size: 18px;
-  margin: 0 20px 10px 30px;
-  color: black;
+.navbar {
+  background-color: #0000ff !important;
+  padding: 0.1rem 0;
 }
-
+.nav-link {
+  font-weight: bold !important;
+  font-size: 16px !important;
+  margin: 0 20px 0 30px;
+  color: #fff !important;
+}
+.nav-link:hover {
+  color: green !important;
+}
 .nav-vue {
   margin: 0 0 50px 0;
 }
 .logo-navbar {
   width: 150px;
   padding-left: 10px;
+  margin: 0 30px 0 10px;
 }
 
 @media (max-width: 300px) {
@@ -23,4 +30,5 @@ position: fixed;
   .logo-navbar {
     width: 100px;
   }
+
 }

@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  /* background-image: url("../assets/background/bg-header.jpg"); */
+  background-image: url("../background/bg-header.jpg");
   height: 900px;
   background-position: center;
   background-repeat: no-repeat;
